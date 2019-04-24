@@ -1,0 +1,383 @@
+/* --- RESET --- */
+h1, h2, h3, h4, h5, h6, body, ul, ol, p {
+	padding: 0;
+	margin: 0;
+} /*end reset*/
+
+
+
+/* Horizontal Rule Glyph, by Harry Roberts */
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+
+
+/* --- BODY --- */
+body {
+    background-color: #f0f0f0;
+	/* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+	font-family: Raleway;
+}
+
+/* --- HEADER --- */
+#header {	
+	background-color: #fff;
+	position: relative;
+    height: 70px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	box-shadow: 0px 3px 4px grey;
+}
+
+/* --- NAME LOGO --- */
+#name_logo {
+	background: none;
+	width: auto;
+	margin: 15px 0px 0px 15em;
+	padding: 0px;
+	float: left;
+}
+
+/* --- PAGE --- */
+#page {
+	background: #f8f8f8;
+    margin: auto;
+    padding: 0px;
+}
+
+/* --- WRAPPER --- */
+#page .wrapper {
+	/* background-color: #f0f0f0; */
+	background-color: none;
+    margin: 15px;
+    padding: 10px;
+}
+
+.wrapper iframe {
+	border: 1px solid #000;
+	box-shadow: 2px 2px 3px grey;
+	margin: 5px;
+}
+
+
+/* --- ABOUT --- */
+#about {
+	background: #252525;
+	color: #fff;
+	text-align: center;
+    width: auto;
+    padding: 15px;
+	margin: 0px;
+}
+
+#about a {
+	color: #ccc;
+}
+
+/* --- PHOTO --- */
+.photo {
+	background: #3E3E3E;
+	width: 800px;
+	margin: 3px 0px -3px 0px;
+	padding: 5px;
+	border: 1px solid #252525;
+}
+
+/* --- CENTERING INNER DIV --- */
+.centering_inner_div {
+	background-color: #3b3b3b;
+	display: inline-block;
+	padding: 0px;
+	margin: 15px;
+	border: 1px solid #252525;
+}
+
+/* --- STORY --- */
+#story {
+	background-color: #fffef3;
+	max-width: 800px;
+	position: relative;
+	margin: 0 auto;
+	padding: 15px;
+	border: 1px solid #252525;
+	border-radius: 25px;
+	text-align: justify;
+}
+
+#story p {
+	margin: 15px;
+	padding: 0px;
+}
+
+/* --- COLUMN --- */
+.column {
+	background-color: #2a2a2a;
+	text-align: center;
+	width: 20em;
+	position: relative;
+	min-height: 32em;
+    padding: 15px;
+	margin: 5px;
+	float: left;
+}
+
+.column h2 {
+	background: #2a2a2a;
+	margin: 0px;
+	padding: 5px;
+}
+
+.column p {
+	/* font-size: 15px; */
+	text-align: justify;
+}
+
+/* --- CONTACT INFO --- */
+.contact_info {
+	background-color: #2a2a2a;
+	text-align: center;
+	max-width: 25em;
+	position: relative;
+	height: auto;
+    padding: 5px;
+	margin: 5px;
+	float: left;
+}
+
+/* --- FOOTER --- */
+footer {
+	background-color: #1c1c1c;
+	color: #686848;
+	text-align: center;
+    width: auto;
+    padding: 15px;
+	margin: 0px;
+	font-family: Raleway;
+}
+
+/* --- MENU --- */
+#menu{
+	color: #888; /* dark grey */
+	width: auto;
+	float: right;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+}
+
+#menu a {
+	background: none;    
+	text-decoration: none;
+    display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+
+#menu a:hover {
+    color: black; /* TEXT COLOR */
+	text-decoration: underline;
+}
+
+#menu a.active {
+	color: #6E7780; /* TEXT COLOR */
+}
+
+#menu a.active:hover {
+	color: #6E7780; /* TEXT COLOR */
+}
+
+
+/* --- SEARCH BOX --- */
+#menu .search-container {
+	background: none;
+	float: right;
+	margin: 3px 0px 0px 5px;
+	padding: 0px;
+	border: 1px solid #e7e7e7;
+}
+
+#menu input[type=text] {
+	border: none;
+	padding: 3px;
+	float: left;
+}
+
+#menu .search-container button {
+	background: #ddd;
+	border: none;
+	cursor: pointer;
+	float: right;
+	padding: 2px;
+}
+
+#menu .search-container button:hover {
+	background: #ccc;
+}
+
+.social_media {
+	background-color: #2a2a2a;
+	float: left;
+	text-align: center;
+	margin: auto;
+	padding: 15px;
+}
+
+
+/* --- GALLERY --- */
+ul.gallery {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;  
+}
+
+ul.gallery li {
+	background-color: #FFF5EE;
+	color: black;
+	text-align: left;
+	float: left;
+	border: 1px solid #999;
+	padding: 5px;
+	margin: 5px;
+	box-shadow: 2px 2px 3px grey;
+}
+
+ul.gallery li img {
+	display: block;
+	height: 20em;
+	border: 1px solid #e7e7e7;
+}
+
+ul.gallery li p {
+	/* background-color: #f5e9e9; */
+	/* border: 1px solid #e7e7e7; */
+	font-weight: bold;
+}
+
+ul.gallery li p.title {
+	color: #444444;
+	margin: 1px;
+	padding: 1px;
+}
+
+ul.gallery li p.date {
+	color: #b8b8b8;
+	font-size: 12px;
+	margin: 1px;
+	padding: 1px;
+}
+
+
+
+/* --- CREATIVE WRITING --- */
+ul.creative_writing {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.creative_writing li {
+	background-color: #FFF5EE;
+	color: black;
+	text-align: left;
+	float: left;
+	border: 1px solid #999;
+	padding: 5px;
+	margin: 5px;
+	box-shadow: 2px 2px 3px grey;
+	width: 400px;
+	min-height: 255px;
+}
+
+ul.creative_writing li img {
+	background-image: url("images/document_icon_x64.png");
+	border: 1px solid #e7e7e7;
+}
+
+ul.creative_writing li p {
+	/* background-color: #f5e9e9; */
+	/* border: 1px solid #e7e7e7; */
+	font-weight: bold;
+}
+
+ul.creative_writing li p.title {
+	color: #444444;
+	margin: 1px;
+	padding: 1px;
+}
+
+ul.creative_writing li p.tagline {
+	color: #b8b8b8;
+	font-size: 12px;
+	margin: 1px;
+	padding: 1px;
+}
+
+ul.creative_writing li p.date {
+	color: #ccc;
+	font-size: 12px;
+	margin: 1px;
+	padding: 1px;
+}
+
+ul.creative_writing li p.synopsis {
+	color: #44444;
+	font-size: 12px;
+	margin: 1px;
+	padding: 1px;
+	text-align: justify;
+	clear: both;
+}
+
+
+
+.doc_icon {
+	background-image: url("images/document_icon_x64.png");
+	border: 1px solid #e7e7e7;
+	height: 64px;
+	width: 64px;
+	float: left;
+}
+
+
+#keepopen {
+    clear: both;
+}
+
+#TopBtn {
+	background-color: #040404;
+	color: #fff;
+	margin: 0;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+#TopBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+}
